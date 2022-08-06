@@ -1,0 +1,98 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+:root {
+  --inputcolor: #767676;
+  --fontsize: 15px;
+}
+
+#body {
+  width: 50%;
+  margin: 0 auto;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  background-color: #444444;
+  color: white;
+  text-align: center;
+  margin: 20px 0px;
+}
+
+#inputField {
+  display: flex;
+
+}
+
+input {
+  width: 70%;
+  padding: 5px 10px;
+  border: 1px solid var(--inputcolor);
+  font-size: var(--fontsize);
+}
+
+#btn {
+  width: 25%;
+  border: none;
+  background-color: var(--inputcolor);
+  color: white;
+  border-radius: 0;
+  transition: all 0.5s ease;
+}
+
+#btn:hover {
+  background-color: #b3b2b2;
+}
+
+#listSpace {
+  background-color: #f4f6f6;
+  border-radius: 10px;
+  margin-top: 20px;
+  padding: 30px;
+}
+
+#indList {
+  display: grid;
+  grid-gap: 10px;
+}
+
+p {
+  display: flex;
+  justify-content: space-between;
+  color: black;
+  font-weight: 600;
+  transition: all 0.5s ease;
+  padding: 5px;
+  border-radius: 6px;
+}
+
+p:hover {
+background-color: #e0e0e0;
+/* color: rgb(10, 10, 10); */
+}
+
+button {
+  border: none;
+  border-radius: 5px;
+  color: white;
+  background-color: #5d6d7e;
+  padding: 10px;
+  transition: all 0.5s ease;
+}
+
+button:hover {
+  background-color: #74879c;
+}
+
+#clearbtn {
+  margin-top: 20px;
+  background-color: rgb(253, 78, 78);
+  transition: all 0.5s ease;
+}
+
+#clearbtn:hover {
+  background-color: rgb(255, 0, 0);;
+}
